@@ -19,5 +19,9 @@
   "bugs": {
     "url": "https://github.com/Umuzi-org/Themba-Dombo-222-memory-game-in-vanilla-js/issues"
   },
-  "homepage": "https://github.com/Umuzi-org/Themba-Dombo-222-memory-game-in-vanilla-js#readme"
+  "homepage": "https://github.com/Umuzi-org/Themba-Dombo-222-memory-game-in-vanilla-js#readme",
+  "dependencies": {
+    "esm": "^3.2.25",
+    "jsdom": "^16.3.0"
+  }
 }
