@@ -2,7 +2,7 @@
   "name": "themba-dombo-222-memory-game-in-vanilla",
   "version": "1.0.0",
   "description": "memory game",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
     "test": "jasmine"
   },
@@ -21,7 +21,6 @@
   },
   "homepage": "https://github.com/Umuzi-org/Themba-Dombo-222-memory-game-in-vanilla-js#readme",
   "dependencies": {
-    "esm": "^3.2.25",
     "jsdom": "^16.3.0"
   }
 }
