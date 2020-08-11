@@ -44,23 +44,4 @@ function itemPicked(event) {
   return boxText;
 }
 
-function createPlayBlocks(listOfItems) {
-  let playblocks =``;
-  let count = 0;
-
-  listOfItems.forEach(items => {
-    playblocks += `
-      <div class="button box${count}">
-        <h3 class="hidden">${items}</h3>
-      </div> `;
-    count++;
-    
-  });
-  return playblocks;
-}
-
-
-//uncomment module.exports and comment out exports when running test still working on a fix to handle this properly
-
-export { Game, createPlayBlocks, itemPicked, itemClicked, removeHidden };
-//module.exports = { "Game": Game, "createPlayBlocks": createPlayBlocks, "itemClicked": itemClicked, "removeHidden": removeHidden, "itemPicked": itemPicked };
+module.exports = { "Game": Game, "itemClicked": itemClicked, "removeHidden": removeHidden, "itemPicked": itemPicked };

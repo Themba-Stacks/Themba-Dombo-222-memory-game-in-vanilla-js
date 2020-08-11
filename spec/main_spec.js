@@ -1,18 +1,20 @@
-const { Game, createPlayBlocks, itemClicked, removeHidden, itemPicked } = require('../src/scripts/memoryGame.js');
-//import {Game,createPlayBlocks,itemClicked,removeHidden,itemPicked} from '../src/function.js';
+const { Game, itemClicked, removeHidden, itemPicked } = require('../src/scripts/memoryGame.js');
+const createPlayBlocks = require('../src/scripts/createPlayBlocks');
 const jsdom = require("jsdom");
 const { JSDOM } = jsdom;
+
+
 var wordsArray = ["book", "car", "chair", "sock", "fish", "clock", "book", "car", "chair", "sock", "fish", "clock"];
-const domIndex = new JSDOM(`<body>
+const domHtml = new JSDOM(`<body>
 <h1>Memory Game</h1>
 <div class="container">
 </div>
-
 <script type="module" src="main.js" defer></script>
 </body>`, { includeNodeLocations: true });
-const dom = domIndex.window.document;
+const dom = domHtml.window.document;
 const testingDOM = dom.querySelector('div')
 testingDOM.appendChild(dom.createRange().createContextualFragment(createPlayBlocks(wordsArray)));
+
 
 describe("createPlayBlocks", () => {
 

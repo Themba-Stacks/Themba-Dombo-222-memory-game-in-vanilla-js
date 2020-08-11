@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/Umuzi-org/Themba-Dombo-222-memory-game-in-vanilla-js#readme",
   "dependencies": {
-    "jsdom": "^16.3.0"
+    "jsdom": "^16.3.0",
+    "requirejs": "^2.3.6"
   }
 }
