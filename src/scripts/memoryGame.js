@@ -60,5 +60,7 @@ function createPlayBlocks(listOfItems) {
 }
 
 
+//uncomment module.exports and comment out exports when running test still working on a fix to handle this properly
+
 export { Game, createPlayBlocks, itemPicked, itemClicked, removeHidden };
 //module.exports = { "Game": Game, "createPlayBlocks": createPlayBlocks, "itemClicked": itemClicked, "removeHidden": removeHidden, "itemPicked": itemPicked };
