@@ -1,0 +1,55 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+    padding: 1em;
+}
+
+.container{
+    background: cadetblue;
+    width: 60%;
+    height: 60vh;
+    margin: auto;
+    padding: 20px;
+    position: relative;
+    border-radius: 1em;
+    
+}
+.box0,
+.box1,
+.box2,
+.box3,
+.box4,
+.box5,
+.box6,
+.box7,
+.box8,
+.box9,
+.box10,
+.box11{
+    background: blanchedalmond;
+    width: 20%;
+    height: 25%;
+    margin: 1em;
+    float: left;
+    border-radius: 3px;
+}
+.hidden{
+    display: none;
+}
+.correct{
+    background: rgb(205, 206, 255);
+    width: 20%;
+    height: 25%;
+    margin: 1em;
+    float: left;
+    border-radius: 3px;
+}
+h3{
+    text-align: center;
+    padding: 25%;
+}

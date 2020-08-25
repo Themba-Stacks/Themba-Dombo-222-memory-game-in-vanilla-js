@@ -1,0 +1,27 @@
+{
+  "name": "themba-dombo-222-memory-game-in-vanilla",
+  "version": "1.0.0",
+  "description": "memory game",
+  "main": "main.js",
+  "scripts": {
+    "test": "jasmine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Umuzi-org/Themba-Dombo-222-memory-game-in-vanilla-js.git"
+  },
+  "keywords": [
+    "vanilla",
+    "js"
+  ],
+  "author": "Themba Dombo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Umuzi-org/Themba-Dombo-222-memory-game-in-vanilla-js/issues"
+  },
+  "homepage": "https://github.com/Umuzi-org/Themba-Dombo-222-memory-game-in-vanilla-js#readme",
+  "dependencies": {
+    "jsdom": "^16.3.0",
+    "requirejs": "^2.3.6"
+  }
+}
